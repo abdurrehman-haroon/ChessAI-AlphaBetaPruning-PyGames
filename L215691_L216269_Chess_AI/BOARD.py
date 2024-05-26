@@ -34,6 +34,13 @@ class Board:
         self[0][2] = Bishop('white', 0, 2, '\u265D')
         self[0][5] = Bishop('white', 0, 5, '\u265D')
         self[0][3] = Queen('white', 0, 3, '\u265B')
+        self[7][0] = Rook('black', 7, 0, '\u2656')
+        self[7][7] = Rook('black', 7, 7, '\u2656')
+        self[7][1] = Knight('black', 7, 1, '\u2658')
+        self[7][6] = Knight('black', 7, 6, '\u2658')
+        self[7][2] = Bishop('black', 7, 2, '\u2657')
+        self[7][5] = Bishop('black', 7, 5, '\u2657')
+        self[7][3] = Queen('black', 7, 3, '\u2655')
         self[0][4] = self.whiteKing
 
         self[7][4] = self.blackKing
